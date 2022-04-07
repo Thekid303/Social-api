@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/Thekid303/Social-api",
   "dependencies": {
-    "@faker-js/faker": "^6.0.0-alpha.7",
     "express": "^4.17.3",
     "moment": "^2.29.1",
     "mongoose": "^6.2.3",
