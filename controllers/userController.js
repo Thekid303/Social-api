@@ -6,7 +6,7 @@ module.exports = {
         // const { username, email, thoughts, friends } = req.body;
         const { username, email } = req.body;
         if (!isEmail(email)) {
-            return res.status(401).json({ error: 'Email must be a valid email'});
+            return res.status(401).json({ error: 'Must be a valid email'});
         }
         try {
             const newUser = await User.create({
