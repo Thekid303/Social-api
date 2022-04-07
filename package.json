@@ -1,0 +1,30 @@
+{
+  "name": "social-api",
+  "version": "1.0.0",
+  "description": "Social Media Backend API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node seeds.js",
+    "w": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thekid303/Social-api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thekid303/Social-api"
+  },
+  "homepage": "https://github.com/Thekid303/Social-api",
+  "dependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.7",
+    "express": "^4.17.3",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  }
+}
