@@ -14,10 +14,17 @@ A social network web application is built using Express.js for routing, a MongoD
 This code requires installation packages of express, moment, mongoose and validator  
 ```
 npm i
-npm run seed
+
 npm run w
 ```
       
 ## Usage
 Demonstration on how GET, POST, UPDATE and DELETE information from a MongoDB  
+
+
+https://user-images.githubusercontent.com/97776196/162162104-e608f823-464d-4f5b-a52d-fd80e410b0b4.mp4
+
+
+
+
 # Social-api
